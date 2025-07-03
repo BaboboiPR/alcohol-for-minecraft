@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "immediate": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    ["immediate"]
+  ],
+  "rewards": {
+    "recipes": ["modid:trident"]
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "title": "Trident Recipe Unlocked",
+    "description": "You start with the trident recipe",
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  }
+}

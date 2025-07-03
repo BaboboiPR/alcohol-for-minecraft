@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:item_modifier",
+  "item": "modid:plum_brandy",
+  "modifier": "modid:plum_brandy_nausea"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "   ",
+    " AG",
+    "   "
+  ],
+  "key": {
+    "G": {
+      "item":"minecraft:glass_bottle"
+    },
+    "A": {
+      "item":"minecraft:apple"
+    }
+  },
+  "result": {
+    "id": "tutorialmod:plum_brandy",
+    "count": 1
+  }
+}

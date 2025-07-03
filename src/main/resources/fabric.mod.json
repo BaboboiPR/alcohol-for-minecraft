@@ -16,22 +16,14 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"dev.turtywurty.tutorialmod.TutorialMod"
+			"example.ExampleMod"
 		],
 		"client": [
-			"dev.turtywurty.tutorialmod.TutorialModClient"
-		],
-		"fabric-datagen": [
-			"dev.turtywurty.tutorialmod.TutorialModDataGenerator"
+			"example.ExampleModClient"
 		]
+
 	},
-	"mixins": [
-		"tutorialmod.mixins.json",
-		{
-			"config": "tutorialmod.client.mixins.json",
-			"environment": "client"
-		}
-	],
+
 	"depends": {
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.21",
